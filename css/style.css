@@ -30,6 +30,10 @@ body {
     justify-content: space-between;
 }
 
+.phone_menu{
+    display: none;
+}
+
 .menu {
     display: flex;
     justify-content: center;

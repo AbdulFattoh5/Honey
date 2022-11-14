@@ -211,16 +211,25 @@
 
 @media screen and (max-width:440px){
     .menu{
-        gap: 40px 100px;
-        flex-wrap: wrap;
+        display: none;
+    }
+   
+    .phone_menu{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 80px;
+    }
+
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .banner_h{
         font-size: 64px;
     }
 }
-
-
-/* header links in order gap
-products words smaller
-all 'h' and 'p' text align center  */
