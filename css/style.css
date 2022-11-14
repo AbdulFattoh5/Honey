@@ -1,6 +1,6 @@
 @import url(./fonts.css);
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -8,11 +8,11 @@
     text-decoration: none;
 }
 
-body{
+body {
     background: #E5E5E5;
 }
 
-.container{
+.container {
     max-width: 1170px;
     margin: 0 auto;
     width: 100%;
@@ -20,23 +20,24 @@ body{
     padding: 0 15px;
 }
 
-.header{
-    padding: 30px 227px;
+.header {
+    padding: 30px 0;
 }
 
-.wrap{
+.wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.menu{
+.menu {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 40px;
 }
 
-.link{
+.link {
     font-family: 'Kodchasan', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -45,18 +46,18 @@ body{
     transition: color 0.4s;
 }
 
-.link:hover{
+.link:hover {
     color: black;
     font-weight: 700;
 }
 
-.banner{
+.banner {
     display: block;
     align-items: center;
     justify-content: center;
 }
 
-.banner_container{
+.banner_container {
     max-width: 1500px;
     margin: 0 auto;
     position: relative;
@@ -65,7 +66,15 @@ body{
     padding: 0 15px;
 }
 
-.bg{
+.middle_container {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.bg {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -74,7 +83,7 @@ body{
     z-index: -1;
 }
 
-.banner_wrap{
+.banner_wrap {
     display: flex;
     flex-direction: column;
     gap: 70px;
@@ -83,7 +92,7 @@ body{
     padding-top: 177px;
 }
 
-.banner_hhh{
+.banner_hhh {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -91,7 +100,7 @@ body{
     width: 100%;
 }
 
-.banner_h{
+.banner_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 100px;
     font-weight: 700;
@@ -99,37 +108,40 @@ body{
     display: flex;
 }
 
-.banner_h:nth-child(2){
+.banner_h:nth-child(2) {
     align-self: flex-end;
 }
 
-.buttons{
+.buttons {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     gap: 30px;
 }
 
-.btn{
+.btn {
     font-family: 'Kodchasan', sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 29px;
-    letter-spacing: 0em;
-    text-align: left;
+    text-align: center;
     padding: 18px 50px;
     background: transparent;
     transition: 0.4s;
+    border: 2px solid black;
     color: black;
 }
 
-.btn:hover{
+.btn:hover {
     background: black;
     color: white;
 }
-.shops{
-    padding: 130px 0;
+
+.shops {
+    margin: 130px 0;
 }
 
-.shops_h{
+.shops_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 45px;
     font-weight: 700;
@@ -137,52 +149,54 @@ body{
     padding-bottom: 50px;
 }
 
-.shops_wrap{
+.shops_wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
     gap: 100px;
 }
 
-.inform{
-    padding-bottom: 100px;
+.inform {
+    margin-bottom: 100px;
 }
 
-.inform_wrap{
+.inform_wrap {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
 }
 
-.i{
+.i {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     gap: 30px;
 }
 
-.b{
-    display: flex;
+.b {
     padding-top: 50px;
 }
 
-.inform_h{
+.inform_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 65px;
+    text-align: left;
 }
 
-.inform_p{
+.inform_p {
     font-family: 'Kodchasan', sans-serif;
     font-size: 22px;
     font-weight: 600;
     line-height: 35px;
     opacity: 0.7;
+    text-align: left;
 }
 
-.inform_btn{
+.inform_btn {
     font-family: 'Kodchasan', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -190,26 +204,35 @@ body{
     background: #E58311;
     color: white;
     padding: 15px 40px;
+    border: 2px solid black;
     transition: 0.4s;
+    text-align: center;
 }
 
-.inform_btn:hover{
+.inform_btn:hover {
     background: white;
     color: #E58311;
 }
 
-.ad{
-    padding-bottom: 100px;
+.ad {
+    margin-bottom: 100px;
 }
 
-.ad_h{
+.ad_wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.ad_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 65px;
 }
 
-.ad_p{
+.ad_p {
     font-family: 'Kodchasan', sans-serif;
     font-size: 22px;
     font-weight: 600;
@@ -217,31 +240,32 @@ body{
     opacity: 0.7;
 }
 
-.product{
-    padding-bottom: 130px;
+.product {
+    margin-bottom: 130px;
 }
 
-.product_title{
+.product_title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.product_wrap{
+.product_wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
     align-items: center;
 }
 
-.product_h{
+.product_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 45px;
     font-weight: 700;
     line-height: 72px;
 }
 
-.see_all{
+.see_all {
     font-family: 'Kodchasan', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -251,34 +275,35 @@ body{
     align-self: flex-end;
 }
 
-.card{
+.card {
     max-width: 558px;
     height: 305px;
-    background: rgba(229,130,17, 0.07);
+    background: rgba(229, 130, 17, 0.07);
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 45px 0 28px 30px;
 }
 
-.card:last-child{
+.card:last-child {
     padding: 45px 40px 28px 30px;
 }
 
-.left{
+.left {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
     gap: 20px;
 }
 
-.left_h{
+.left_h {
     font-family: 'Kodchasan', sans-serif;
     font-size: 28px;
     font-weight: 600;
     line-height: 39px;
 }
 
-.left_p{
+.left_p {
     font-family: 'Kodchasan', sans-serif;
     font-size: 16px;
     font-weight: 600;
@@ -286,7 +311,7 @@ body{
     opacity: 0.7;
 }
 
-.left_btn{
+.left_btn {
     font-family: 'Kodchasan', sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -298,51 +323,50 @@ body{
     transition: 0.4s;
 }
 
-.left_btn:hover{
+.left_btn:hover {
     color: white;
     background: #E58211;
 }
 
-.footer{
+.footer {
     background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
     padding: 54px 0;
 }
 
-.footer_wrap{
+.footer_wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
 }
 
-.footer_p{
+.footer_p {
     font-family: 'Kodchasan', sans-serif;
     font-size: 14px;
     font-weight: 500;
     line-height: 22px;
     opacity: 0.7;
-    padding-right: 38px;
+    max-width: 269px;
 }
 
-.footer_list{
+.footer_list {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
 
-.footer_link img{
+.footer_link img {
     transition: 0.4s;
 }
 
-.footer_link img:hover{
+.footer_link img:hover {
     transform: scale(1.4);
 }
 
-.apps{
+.apps {
     display: flex;
     align-items: center;
     justify-content: space-between;
     gap: 20px;
-    padding-left: 120px;
 }

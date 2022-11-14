@@ -1,0 +1,226 @@
+@media screen and (max-width:1490px) {
+    .banner {
+        background: url(../img/banner.png) no-repeat center top/cover;
+        height: 865px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .bg {
+        display: none;
+    }
+
+    .inform_img {
+        object-fit: cover;
+        width: 60%;
+        height: 60%;
+    }
+
+    .ad_img {
+        object-fit: cover;
+        width: 60%;
+        height: 70%;
+    }
+
+    .logo{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media screen and (max-width:1335px) {
+    .inform_wrap {
+        flex-direction: column;
+    }
+
+    .ad_wrap {
+        flex-direction: column-reverse;
+    }
+
+    .middle_container {
+        max-width: 1170px;
+        margin: 0 auto;
+        width: 100%;
+        height: 100%;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width:1159px) {
+    .shops_wrap{
+        gap:100px 300px;
+    }
+}
+
+@media screen and (max-width:1050px){
+    .product_wrap{
+        flex-direction: column;
+    }
+
+    .banner_h{
+        font-size: 80px;
+    }
+}
+
+@media screen and (max-width:990px){
+    .apps{
+        flex-direction: column;
+    }
+
+    .shops_h{
+        text-align: center;
+    }
+
+    .inform_h{
+        text-align: center;
+    }
+
+    .inform_p{
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .b{
+        text-align: center;
+    }
+
+    .ad_h{
+        text-align: center;
+    }
+
+    .ad_p{
+        text-align: center;
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .product_h{
+        text-align: center;
+    }
+
+    .product_title{
+        flex-direction: column;
+    }
+
+    .see_all{
+        align-self: auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:785px){
+    .shops_wrap{
+        gap: 100px;
+    }
+
+    .footer_wrap{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .inform_img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+    }
+
+    .ad_img {
+        object-fit: cover;
+        width: 70%;
+        height: 70%;
+    }
+
+    .btn{
+        padding: 15px 40px;
+    }
+
+    .banner_h{
+        font-size: 70px;
+    }
+
+    .banner_h:nth-child(2) {
+        align-self: center;
+    }
+}
+
+@media screen and (max-width:610px) {
+    .wrap {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .buttons{
+        flex-direction: column;
+    }
+
+    .btn{
+        height: 65px;
+        width: 180px;
+        padding: 18px 0;
+    }
+
+    .shops_h{
+        font-size: 40px;
+    }
+
+    .inform_h{
+        font-size: 40px;
+    }
+
+    .inform_p{
+        font-size: 18px;
+    }
+
+    .ad_h{
+        font-size: 40px;
+    }
+
+    .ad_p{
+        font-size: 18px;
+    }
+
+    .product_h{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .card{
+        height: auto;
+        flex-direction: column-reverse;
+        padding: 45px 30px 28px 30px;
+    }
+
+    .left_h{
+        text-align: center;
+        margin: auto;
+    }
+
+    .left_p{
+        text-align: center;
+    }
+
+    .left_btn{
+        text-align: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:440px){
+    .menu{
+        gap: 40px 100px;
+        flex-wrap: wrap;
+    }
+
+    .banner_h{
+        font-size: 64px;
+    }
+}
+
+
+/* header links in order gap
+products words smaller
+all 'h' and 'p' text align center  */
